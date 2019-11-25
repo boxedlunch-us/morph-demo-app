@@ -394,7 +394,7 @@ node {
   "envCode": "production",
   "type": "morpheus"
   ]
-
+]
 
             echo morpheusApp.buildApp(morpheusUrl, postBody, "${bearer}")
         }
