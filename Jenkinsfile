@@ -43,7 +43,7 @@ node {
          *  */
 
         withCredentials([string(credentialsId: 'demo-morph-scrt', variable: 'bearer')]) {
-            String morpheusUrl = 'https://demo.morpheusdata.com/api/apps'
+            String morpheusUrl = 'https://192.168.235.142/api/apps'
 
             Map<?, ?> postBody = [
   "id": 1,
